@@ -1,77 +1,86 @@
-body{
-     font-family: 'Roboto', sans-serif;
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+
+    height: 100vh;
+
+
 }
 
 
-header,footer{
-    color:#22b14c;
+header,
+footer {
+    color: #22b14c;
     text-align: center;
     border: 3px solid;
     padding: 10px 0px;
     font-weight: bolder;
     font-size: large;
+    
 }
 
 
-section{
+section {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 425px;
 
+    height: 60%;
     margin: 14px 0px;
 
     font-weight: bolder;
-    font-size: larger;  
+    font-size: larger;
 }
 
-#leftDiv,#rightDiv{
+#leftDiv,
+#rightDiv {
 
     text-align: center;
-    
+
     width: 45%;
+
 }
 
-#leftDiv{
+#leftDiv {
     color: #ed1c24;
     border: 5px solid;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
-#rightDiv{
+#rightDiv {
     color: #00a2e8;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-      
+
 }
 
 
-#topDiv,#bottomDiv{
-    border:5px solid;
+#topDiv,
+#bottomDiv {
+    border: 5px solid;
     height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
-div.small{   
+div.small {
     text-align: center;
-    padding: 10px;
-}
-
-span{
-    font-style: italic;
+    padding-top: 10px ;
     
 }
 
-a{
-    text-decoration: none;
+span {
+    font-style: italic;
+
 }
 
-
+a {
+    text-decoration: none;
+}
